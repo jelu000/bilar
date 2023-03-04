@@ -3,7 +3,7 @@
 
 import bil
 
-looping = True
+looping = True #För att avsluta programmet
 
 
 volvo_svart = bil.Bil("Volvo", "Svart", 3)
@@ -22,7 +22,7 @@ while looping:
     i = 0
     #Skriver ut lista med bilar
     for bil in billista:
-        print(str(i+1) + "  :   "+ billista[i].fabrikat +"  :   "+ billista[i].color + ",   Antal i lager: " + str(billista[i].lager) + "st")
+        print(str(i+1) + "  :   "+ bil.fabrikat +"  :   "+ bil.color + ",   Antal i lager: " + str(bil.lager) + "st")
         i += 1
     #Slut på lista med bilar
     
@@ -52,7 +52,7 @@ while looping:
 
     
     #Avslutar programmet
-    go = input("\n Vill du välja en bil till? j/n ")
+    go = input("\n Vill du avsluta programmet? j/n ")
     print("\n")
-    if (go == "n"):
+    if (go == "j"):
         break
