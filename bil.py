@@ -8,7 +8,7 @@ class Bil:
         self.color = color
         self.lager = lager
 
-    #funktioner i som tillhör en klass kalla för metoder=Metods"
+    #funktioner som tillhör en klass kallas för metoder=Metods"
     def set_lager(self, lager):
         self.lager = lager
 
