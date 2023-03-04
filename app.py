@@ -19,8 +19,6 @@ while looping:
     print("----------------------------------------")
     print("\n-:BilAutomat:-\n")
 
-    
-    
     i = 0
     #Skriver ut lista med bilar
     for bil in billista:
